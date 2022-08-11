@@ -114,7 +114,7 @@ client.on('messageCreate', message => {
 
 
 
-ServerApp()
+
 client.login("MTAwNjkxMTcxMTA2MTc0MTU5OA.Gyc-m7.dEE52UhO5WBUl3Cvx0-4bAPstAyx6i5AidJObA");
 
 
