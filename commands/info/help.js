@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js');
-const prefix = process.env.PREFIX;
+const prefix = "+';
 
 
 module.exports = {
