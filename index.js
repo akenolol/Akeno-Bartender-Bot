@@ -5,7 +5,7 @@ const client = new Client({
 });
 const fs = require('fs');
 const path = require('path');
-const prefix = process.env.PREFIX;
+const prefix = "+";
 const mongoose = require('mongoose');
 const { MessageEmbed } = require('discord.js');
 const Logger = require('./utils/Logger');
@@ -50,7 +50,7 @@ client.once('ready', () => {
     console.log(numberOfDependencies);
     console.log('');
     console.log(' - Owner / Author -');
-    console.log(process.env.OWNER_USERNAME);
+    console.log("akeno#1010");
     console.log('')
 
     client.user.setStatus('dnd');
@@ -72,17 +72,17 @@ client.once('ready', () => {
         client.user.setActivity(activities_list[index], { type: 'WATCHING' });
     }, 5000);
 
-    mongoose.connect(process.env.MONGODB, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
+//     mongoose.connect(process.env.MONGODB, {
+//         useNewUrlParser: true,
+//         useUnifiedTopology: true,
 
-    }).then(() => {
-        log.info("Connected to MongoDB");
-    }
-    ).catch((err) => {
-        log.error(err);
-    }
-    )
+//     }).then(() => {
+//         log.info("Connected to MongoDB");
+//     }
+//     ).catch((err) => {
+//         log.error(err);
+//     }
+//     )
 });
 
 
@@ -115,6 +115,6 @@ client.on('messageCreate', message => {
 
 
 ServerApp()
-client.login(process.env.TOKEN)
+client.login("MTAwNjkxMTcxMTA2MTc0MTU5OA.Gyc-m7.dEE52UhO5WBUl3Cvx0-4bAPstAyx6i5AidJObA");
 
 
