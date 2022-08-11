@@ -12,7 +12,7 @@ const Logger = require('./utils/Logger');
 const log = new Logger({ debug: true });
 const groupsSchema = require('./models/groups');
 const { version } = require('./package.json');
-const { dependencies } = require('./package.json');
+const { dependencies } = require('./package.json')
 const ServerApp = require('./server.js')
 
 //const { devDependencies } = require('./package.json');
