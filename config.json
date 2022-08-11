@@ -1,0 +1,39 @@
+{
+    "groups": {
+        "anime": {
+            "name": "Anime",
+            "description": "This Group is a Group for people who love anime.",
+            "ownerName": "akeno",
+            "ownerId": "547923574833545226",
+            "roleId": "1006958350988226722"
+        },
+        "programming": {
+            "name": "Programming",
+            "description": "This Group is a Group for people who love Programming and Coding.",
+            "ownerName": "akeno",
+            "ownerId": "547923574833545226",
+            "roleId": "1006958397100400712"
+        },
+        "gaming": {
+            "name": "Gaming",
+            "description": "This Group is a Group for people who love Gaming.",
+            "ownerName": "akeno",
+            "ownerId": "547923574833545226",
+            "roleId": "1006958942603194538"
+        },
+        "music": {
+            "name": "Music",
+            "description": "This Group is a Group for people who love Music.",
+            "ownerName": "akeno",
+            "ownerId": "547923574833545226",
+            "roleId": "1006959050497458186"
+        },
+        "technology": {
+            "name": "Technology",
+            "description": "This Group is a Group for people who love Technology.",
+            "ownerName": "akeno",
+            "ownerId": "547923574833545226",
+            "roleId": "1006958847367315467"
+        }
+    }
+}
