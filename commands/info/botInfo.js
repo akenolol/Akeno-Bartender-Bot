@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 const groups = require("../../config.json").groups;
-const prefix = process.env.PREFIX;
+const prefix = "+';
 const { version } = require('../../package.json');
 const { dependencies } = require('../../package.json');
 
