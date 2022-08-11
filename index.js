@@ -14,7 +14,8 @@ const groupsSchema = require('./models/groups');
 const { version } = require('./package.json');
 const { dependencies } = require('./package.json')
 const ServerApp = require('./server.js')
-
+const express = require('express');
+const app = express();
 //const { devDependencies } = require('./package.json');
 
 
@@ -110,6 +111,18 @@ client.on('messageCreate', message => {
     }
 });
 
+
+
+
+
+
+
+
+app.get('/', (req, res) => {
+    res.send("Hello!")
+})
+
+app.listen(7450, () => {})
 
 
 
