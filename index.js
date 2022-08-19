@@ -5,7 +5,7 @@ const client = new Client({
 });
 const fs = require('fs');
 const path = require('path');
-const prefix = "+";
+const prefix = "your-prefix";
 const mongoose = require('mongoose');
 const { MessageEmbed } = require('discord.js');
 const Logger = require('./utils/Logger');
@@ -115,19 +115,6 @@ client.on('messageCreate', message => {
 
 
 
-
-
-
-app.get('/', (req, res) => {
-    res.send("Hello!")
-})
-
-app.listen(7450, () => {})
-
-
-
-
-
-client.login("MTAwNjkxMTcxMTA2MTc0MTU5OA.Gyc-m7.dEE52UhO5WBUl3Cvx0-4bAPstAyx6i5AidJObA");
+client.login("your-token");
 
 
